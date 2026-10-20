@@ -76,16 +76,6 @@ DialogueLine line18 = new DialogueLine();
         Dialogue[1].PrintSpeech();
         Dialogue[2].PrintOption();
         
-//  ---    CREATING OPTION DICTIONARY   ---    // 
-
-Dictionary<string, List<DialogueLine>> OptionDictionary = new Dictionary<string, List<DialogueLine>>();
-
-            OptionDictionary.Add("OptionDialogue", Dialogue);
-// Finds the "option dictionary" and adds the key to the dialogue 
-             
-            List<DialogueLine> TheNewList = new List<DialogueLine>();
-            TheNewList = OptionDictionary["OptionDialogue"];
-// Creates new list within this dictionary so we can call the options/answers
                   
                         string answer1 = Console.ReadLine();
 // Allows for input from the player
@@ -95,7 +85,7 @@ Dictionary<string, List<DialogueLine>> OptionDictionary = new Dictionary<string,
             {
                 Console.WriteLine("You decided to go to sleep.");
                 return;
-                // produces dialogue 
+                // produces dialogue and ends game
             }
 
            else if(answer1 == "stay up")
