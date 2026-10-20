@@ -3,7 +3,9 @@
 ## Planning 
 I started by creating a flowchart to explore my ideas and see how I would structure them in the code. My idea consisted of a short thriller-based storyline with different choice options for the player. I chose this idea so that the player could experience various outcomes depending on the direction they chose. I also wanted to keep the game relatively short by leaving some of the story paths on cliffhangers. Creating the flowchart helped me understand how the different choices would connect and allowed me to plan the narrative before starting the code.
 
-![Image of flowchart]()
+![Image of flowchart](https://raw.githubusercontent.com/kdogz9/TextBasedNarrativeStoryGame/refs/heads/main/NarrativeStorytelling.png)
+
+[Link to flowchart](https://app.diagrams.net/#G1DwQBrQ77xuAvrQ2mqWfkggKJj-2mKzX_#%7B%22pageId%22%3A%22ej93tNamHamwUbjjH4Xr%22%7D)
 
 ## Development 
 My first approach when creating the code for the game was to set up a class called DialogueLine, which allowed me to define variables and methods that I could use later when needed. Once I had this in place, I could begin creating the dialogue lines with the necessary information for my storyline. Once these lines were set, I created a list to store my dialogue objects so that I could access them when needed throughout the story. I chose to use a list because it allowed me to store the dialogue objects together and access them using their index positions. (List Class in C#, 00:00:50+00:00) This helped keep my code organised and made it easier to call specific dialogue lines throughout the game without having to write out the dialogue repeatedly.
@@ -48,7 +50,7 @@ However, when implementing the narrative logic, I came across a couple of challe
 ## Final outcome 
 The final outcome was a working text-based thriller game that allowed the player to read dialogue and make choices that influenced the direction of the storyline. By using different narrative paths I was able to create multiple possible outcomes and cliffhangers. 
 
-(video of it working)
+[Video of it working](https://youtu.be/yvuzWBZgWz0)
 
 ## Skills gained 
 This experience allowed me to gain various valuable skills and knowledge. I now have a better understanding of the importance of data structures, classes, variables and the Console.ReadLine() and Console.WriteLine() methods. I found that using a list was beneficial because it allowed me to keep my dialogue objects organised and access them when needed. It also helped me understand how data structures can make code easier to manage, especially when working with multiple pieces of information.Learning how to use classes and objects was another valuable skill because I could create a reusable structure for my dialogue lines.I also developed my understanding of if/else statements and how they can be used to control the flow of a game. Finally, using Console.ReadLine() and Console.WriteLine() taught me how to display text on the screen and allow the player to interact with the game through their own input. This was particularly useful because player interaction was one of the main features of my game. 
